@@ -1,4 +1,4 @@
-let twicevn = JSON.parse($response.body);
+var twicevn = JSON.parse($response.body);
 
 twicevn.user_subscription.is_active= true;
 
