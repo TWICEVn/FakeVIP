@@ -1,0 +1,4 @@
+hostname = vsco.co, *.vsco.co
+
+#VSCO
+^https://vsco.co/api/.+/user-subscriptions/.+ url script-response-body https://twicevn.co.uk/vip/vscox.js
